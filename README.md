@@ -30,7 +30,9 @@ Do not add a custom-domain `CNAME` file until Dave has reviewed the page and cho
 
 ## Ploy Use
 
-Give Ploy this folder as the reference, then ask:
+Start with `PLOY_CREDIT_SAVER_HANDOFF.md`. The rule is: Codex builds the page and assets; Ploy imports, publishes, captures the early list, and handles platform/growth features only when needed.
+
+If Ploy needs a short prompt, use:
 
 > Recreate this public brand page for `www.gnt.ai`, preserve the premium visual direction and short copy, and keep the story focused on one simple growth loop: run a great pickleball event, followers keep up with great community builders, community builders invite followers into the right events, followers refer friends, and the group grows naturally. Replace the mailto form with a native Ploy early-list form. Do not add product details, roadmap claims, integrations, private workflows, or specific club examples.
 
