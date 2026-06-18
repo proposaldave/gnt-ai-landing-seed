@@ -35,7 +35,7 @@ Start with `PLOY_CREDIT_SAVER_HANDOFF.md`. The rule is: Codex builds the page an
 
 If Ploy needs a short prompt, use:
 
-> Recreate this public brand page for `www.gnt.ai`, preserve the premium visual direction and short copy, and keep the hero focused on the main idea: from one great host to a living community. The growth loop is: run a great pickleball event, followers keep up with great community builders, community builders invite followers into the right events, followers refer friends, and the group grows naturally. Replace the mailto form with a native Ploy early-list form. Do not add product details, roadmap claims, integrations, private workflows, or specific club examples.
+> Recreate this public brand page for `www.gnt.ai`, preserve the premium visual direction and short copy, and keep the hero focused on the clear outcome: fill the next pickleball event through trusted referrals. The supporting brand idea is: from one trusted host to a living community. The growth loop is: run a great pickleball event, followers keep up with great community builders, community builders invite followers into the right events, followers refer friends, and the group grows naturally. Replace the mailto form with a native Ploy early-list form. Do not add product details, roadmap claims, integrations, private workflows, or specific club examples.
 
 ## Safety Rules
 
