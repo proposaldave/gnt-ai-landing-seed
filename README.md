@@ -14,6 +14,7 @@ Use this as a concrete visual/copy reference for Ploy. It is intentionally broad
 - `styles.css` - standalone styles, no build step
 - `assets/hero-community-growth.svg` - public-safe visual asset with no real people, logos, or readable data
 - `assets/follow-community-builders.svg` - public-safe visual for the follower/community-builder section
+- `assets/builders-invite-followers.svg` - public-safe visual for warm follower invitations
 
 ## How To Preview
 
@@ -29,7 +30,7 @@ Do not add a custom-domain `CNAME` file until Dave has reviewed the page and cho
 
 Give Ploy this folder as the reference, then ask:
 
-> Recreate this public brand page for `www.gnt.ai`, preserve the quiet visual direction and short copy, and sharpen the positioning around one simple growth loop: run a great pickleball event, invite a group or open it to anyone, let followers keep up with great community builders, ask invitees to refer friends, and grow groups, experiences, and community. Keep the second visual section focused on following trusted community builders. Replace the mailto form with a native Ploy early-list form. Do not add product details, roadmap claims, integrations, private workflows, or specific club examples.
+> Recreate this public brand page for `www.gnt.ai`, preserve the quiet visual direction and short copy, and sharpen the positioning around one simple growth loop: run a great pickleball event, invite a group or open it to anyone, let followers keep up with great community builders, community builders invite followers into the right events, invitees refer friends, and the group grows naturally. Keep the visual sections focused on following trusted community builders and turning those followings into warm invitations. Replace the mailto form with a native Ploy early-list form. Do not add product details, roadmap claims, integrations, private workflows, or specific club examples.
 
 ## Safety Rules
 

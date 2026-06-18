@@ -247,7 +247,8 @@ h3 {
   background: var(--magenta);
 }
 
-.builder-feature {
+.builder-feature,
+.invite-feature {
   display: grid;
   grid-template-columns: minmax(0, 1.06fr) minmax(340px, 0.84fr);
   gap: 36px;
@@ -260,24 +261,37 @@ h3 {
   box-shadow: 0 20px 60px rgba(36, 75, 179, 0.1);
 }
 
-.builder-media {
+.invite-feature {
+  grid-template-columns: minmax(340px, 0.82fr) minmax(0, 1.08fr);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.82) 0%, rgba(238, 247, 255, 0.92) 100%);
+}
+
+.builder-media,
+.invite-media {
   overflow: hidden;
   border-radius: 24px;
   background: #ffffff;
 }
 
-.builder-media img {
+.builder-media img,
+.invite-media img {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 10;
   object-fit: cover;
 }
 
-.builder-copy {
+.builder-copy,
+.invite-copy {
   padding: 10px 18px 10px 0;
 }
 
-.builder-copy p:last-child {
+.invite-copy {
+  padding: 10px 0 10px 18px;
+}
+
+.builder-copy p:last-child,
+.invite-copy p:last-child {
   max-width: 470px;
   margin-bottom: 0;
   color: var(--muted);
@@ -347,6 +361,7 @@ select:focus,
   .hero,
   .split,
   .builder-feature,
+  .invite-feature,
   .early-list {
     grid-template-columns: 1fr;
   }
@@ -383,20 +398,24 @@ select:focus,
     min-height: 150px;
   }
 
-  .builder-feature {
+  .builder-feature,
+  .invite-feature {
     gap: 20px;
     padding: 12px;
   }
 
-  .builder-media {
+  .builder-media,
+  .invite-media {
     order: -1;
   }
 
-  .builder-copy {
+  .builder-copy,
+  .invite-copy {
     padding: 0 10px 10px;
   }
 
-  .builder-copy p:last-child {
+  .builder-copy p:last-child,
+  .invite-copy p:last-child {
     font-size: 1rem;
   }
 
