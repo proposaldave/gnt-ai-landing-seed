@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Give n Take helps pickleball hosts grow events, followers, invite groups, referrals, and community."
+      content="Give n Take helps pickleball community builders run great events, invite followers, and grow through trusted referrals."
     />
     <title>Give n Take</title>
     <link rel="stylesheet" href="./styles.css" />
@@ -22,91 +22,67 @@
 
       <section class="hero" id="top">
         <div class="hero-copy">
-          <p class="eyebrow">Pickleball events, made warmer</p>
-          <h1>Run great events. Follow great hosts.</h1>
+          <p class="eyebrow">Pickleball communities, made warmer</p>
+          <h1>Run great events. Grow warm groups.</h1>
           <p class="lede">
-            Invite a group, open it up, and let followers refer friends.
+            Community builders invite followers into the right events. Followers
+            refer friends. Every great session can grow the next one.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#early-list">Join the early list</a>
-            <p class="trust-line">Grow groups, followers, experiences, and community.</p>
+            <a class="button secondary" href="#loop">See the loop</a>
           </div>
         </div>
-        <div class="hero-media" aria-label="Pickleball event invitation and referral visual">
-          <img src="./assets/hero-community-growth.svg" alt="" />
+        <div class="hero-media" aria-label="Give n Take community growth loop visual">
+          <img src="./assets/landing-growth-loop.svg" alt="" />
         </div>
       </section>
 
-      <section class="section split">
+      <section class="loop" id="loop" aria-label="Give n Take growth loop">
+        <div class="loop-heading">
+          <p class="eyebrow">The warm growth loop</p>
+          <h2>From one great host to a living community.</h2>
+        </div>
+        <div class="loop-grid">
+          <article>
+            <span class="step">01</span>
+            <h3>Run a great event</h3>
+            <p>Create the kind of session people remember and want again.</p>
+          </article>
+          <article>
+            <span class="step">02</span>
+            <h3>Follow great builders</h3>
+            <p>Players keep up with hosts they trust, not random blasts.</p>
+          </article>
+          <article>
+            <span class="step">03</span>
+            <h3>Invite followers</h3>
+            <p>Community builders fill the right events with warm invites.</p>
+          </article>
+          <article>
+            <span class="step">04</span>
+            <h3>Followers refer friends</h3>
+            <p>The next group grows through people the community already trusts.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="promise" aria-label="Give n Take promise">
         <div>
-          <p class="eyebrow">For hosts and followers</p>
-          <h2>Every event can grow the next one.</h2>
+          <p class="eyebrow">Built for real communities</p>
+          <h2>Not a cold registration page. A followable event network.</h2>
         </div>
         <p>
-          Build invite-only groups, open events, clinics, and recurring play around
-          people who want to be there and friends they trust.
+          Give n Take is for hosts, coaches, and community builders who want
+          events to feel personal while still growing beyond the first invite list.
         </p>
-      </section>
-
-      <section class="cards" aria-label="Who Give n Take is for">
-        <article>
-          <span class="card-dot blue"></span>
-          <h3>Run an event</h3>
-          <p>Invite a group or open it to anyone.</p>
-        </article>
-        <article>
-          <span class="card-dot mint"></span>
-          <h3>Follow hosts</h3>
-          <p>Keep up with people worth joining.</p>
-        </article>
-        <article>
-          <span class="card-dot magenta"></span>
-          <h3>Grow the group</h3>
-          <p>Let followers refer friends.</p>
-        </article>
-      </section>
-
-      <section class="builder-feature" aria-label="Follow great community builders">
-        <div class="builder-media">
-          <img src="./assets/follow-community-builders.svg" alt="" />
-        </div>
-        <div class="builder-copy">
-          <p class="eyebrow">Follow great community builders</p>
-          <h2>Join the people who make play worth showing up for.</h2>
-          <p>Follow trusted hosts, join what fits, and bring friends when it makes the event better.</p>
-        </div>
-      </section>
-
-      <section class="invite-feature" aria-label="Community builders invite followers">
-        <div class="invite-copy">
-          <p class="eyebrow">Community builders invite followers</p>
-          <h2>Invite followers into the right events.</h2>
-          <p>Start with people who already follow the host, then let the right players bring friends.</p>
-        </div>
-        <div class="invite-media">
-          <img src="./assets/builders-invite-followers.svg" alt="" />
-        </div>
-      </section>
-
-      <section class="referral-feature" aria-label="Followers refer friends">
-        <div class="referral-media">
-          <img src="./assets/followers-refer-friends.svg" alt="" />
-        </div>
-        <div class="referral-copy">
-          <p class="eyebrow">Followers refer friends</p>
-          <h2>Let the right players bring the next ones.</h2>
-          <p>Warm referrals help every event grow through people the group already trusts.</p>
-        </div>
       </section>
 
       <section class="early-list" id="early-list">
         <div>
           <p class="eyebrow">Early list</p>
           <h2>Want in when the first hosts launch?</h2>
-          <p>
-            Join if you want to host, follow, refer, or grow a better pickleball
-            community.
-          </p>
+          <p>Join if you want to host, follow, refer, or grow a better pickleball community.</p>
         </div>
         <form class="signup" action="mailto:hello@gnt.ai" method="post" enctype="text/plain">
           <label>
@@ -120,14 +96,11 @@
           <label>
             <span>I want to</span>
             <select name="role" required>
-              <option value="follow-hosts">Follow great hosts</option>
+              <option value="host-events">Run great events</option>
+              <option value="follow-builders">Follow community builders</option>
               <option value="invite-followers">Invite followers</option>
               <option value="refer-friends">Refer friends</option>
-              <option value="host-events">Run great events</option>
-              <option value="invite-group">Invite a customer group</option>
-              <option value="open-event">Open an event to anyone</option>
-              <option value="teaching-pro">Teaching pro</option>
-              <option value="club-leader">Club leader</option>
+              <option value="club-leader">Build community at a club</option>
               <option value="other">Other</option>
             </select>
           </label>
