@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Give n Take is building a warmer way for trusted pickleball hosts and community builders to bring people together."
+    />
+    <title>Give n Take</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="#top" aria-label="Give n Take home">
+          <span class="brand-mark">GnT</span>
+          <span>Give n Take</span>
+        </a>
+        <a class="nav-link" href="#early-list">Join early list</a>
+      </nav>
+
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Pickleball community, made warmer</p>
+          <h1>Pickleball is better when the right people find the right room.</h1>
+          <p class="lede">
+            Give n Take is building a calmer way for trusted hosts and community builders
+            to bring people together.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#early-list">Join the early list</a>
+            <p class="trust-line">Human-first. Invite-centered. Built for real communities.</p>
+          </div>
+        </div>
+        <div class="hero-media" aria-label="Pickleball paddles, ball, and simple scheduling visual">
+          <img src="./assets/hero-court.svg" alt="" />
+        </div>
+      </section>
+
+      <section class="section split">
+        <div>
+          <p class="eyebrow">Less noise. Better fit.</p>
+          <h2>The best rooms feel intentional.</h2>
+        </div>
+        <p>
+          Level, timing, trust, and vibe all matter. Give n Take starts from that simple
+          truth: a good invitation is more powerful than another crowded listing.
+        </p>
+      </section>
+
+      <section class="cards" aria-label="Who Give n Take is for">
+        <article>
+          <span class="card-dot blue"></span>
+          <h3>Hosts</h3>
+          <p>Make the next invitation feel personal.</p>
+        </article>
+        <article>
+          <span class="card-dot mint"></span>
+          <h3>Pros</h3>
+          <p>Keep players connected between sessions.</p>
+        </article>
+        <article>
+          <span class="card-dot magenta"></span>
+          <h3>Clubs</h3>
+          <p>Support better rooms, not just more listings.</p>
+        </article>
+      </section>
+
+      <section class="early-list" id="early-list">
+        <div>
+          <p class="eyebrow">Early list</p>
+          <h2>Want to follow along?</h2>
+          <p>
+            We are starting small, listening closely, and building around the human
+            judgment that makes a group work.
+          </p>
+        </div>
+        <form class="signup" action="mailto:hello@gnt.ai" method="post" enctype="text/plain">
+          <label>
+            <span>Name</span>
+            <input name="name" autocomplete="name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+          <label>
+            <span>I am a</span>
+            <select name="role" required>
+              <option value="player">Player</option>
+              <option value="host">Host</option>
+              <option value="teaching-pro">Teaching pro</option>
+              <option value="club-leader">Club leader</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+          <button class="button primary" type="submit">Join the early list</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

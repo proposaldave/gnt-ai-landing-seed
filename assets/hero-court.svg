@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 990" role="img" aria-label="Stylized pickleball court with paddles, ball, and abstract scheduling blocks">
+  <defs>
+    <linearGradient id="court" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9fcff"/>
+      <stop offset="0.42" stop-color="#eaf2ff"/>
+      <stop offset="1" stop-color="#d7eaff"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#edf5ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#244bb3" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="990" fill="url(#court)"/>
+  <path d="M0 292h1440M0 700h1440M394 0v990M948 0v990" stroke="#2f6bff" stroke-opacity=".34" stroke-width="14"/>
+  <path d="M0 496h1440" stroke="#ffffff" stroke-width="8" stroke-opacity=".88"/>
+  <path d="M394 0v990M948 0v990" stroke="#ffffff" stroke-width="7" stroke-opacity=".88"/>
+
+  <g transform="translate(770 278) rotate(-18)" filter="url(#shadow)">
+    <rect x="0" y="0" width="410" height="604" rx="54" fill="#111827"/>
+    <rect x="22" y="26" width="366" height="552" rx="38" fill="url(#phone)"/>
+    <circle cx="206" cy="64" r="10" fill="#d2dcea"/>
+    <rect x="64" y="112" width="210" height="26" rx="13" fill="#244bb3" opacity=".9"/>
+    <rect x="64" y="172" width="282" height="70" rx="24" fill="#eaf2ff"/>
+    <circle cx="102" cy="207" r="16" fill="#49b4a0"/>
+    <rect x="136" y="193" width="152" height="16" rx="8" fill="#2f6bff" opacity=".42"/>
+    <rect x="136" y="218" width="88" height="12" rx="6" fill="#667085" opacity=".25"/>
+    <rect x="64" y="268" width="282" height="70" rx="24" fill="#eaf2ff"/>
+    <circle cx="102" cy="303" r="16" fill="#f000c8"/>
+    <rect x="136" y="289" width="132" height="16" rx="8" fill="#2f6bff" opacity=".42"/>
+    <rect x="136" y="314" width="120" height="12" rx="6" fill="#667085" opacity=".25"/>
+    <rect x="64" y="364" width="282" height="70" rx="24" fill="#eaf2ff"/>
+    <circle cx="102" cy="399" r="16" fill="#2f6bff"/>
+    <rect x="136" y="385" width="174" height="16" rx="8" fill="#2f6bff" opacity=".42"/>
+    <rect x="136" y="410" width="96" height="12" rx="6" fill="#667085" opacity=".25"/>
+    <rect x="64" y="484" width="126" height="38" rx="19" fill="#2f6bff"/>
+    <rect x="206" y="484" width="80" height="38" rx="19" fill="#49b4a0"/>
+  </g>
+
+  <g transform="translate(270 520) rotate(-28)" filter="url(#shadow)">
+    <rect x="118" y="250" width="58" height="282" rx="29" fill="#244bb3"/>
+    <ellipse cx="147" cy="146" rx="132" ry="164" fill="#2f6bff"/>
+    <ellipse cx="147" cy="146" rx="92" ry="120" fill="#ffffff" opacity=".18"/>
+    <path d="M90 80c52 92 98 142 170 182" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity=".34"/>
+  </g>
+
+  <g transform="translate(534 585) rotate(18)" filter="url(#shadow)">
+    <rect x="118" y="250" width="58" height="282" rx="29" fill="#1b3a8b"/>
+    <ellipse cx="147" cy="146" rx="132" ry="164" fill="#49b4a0"/>
+    <ellipse cx="147" cy="146" rx="92" ry="120" fill="#ffffff" opacity=".18"/>
+    <path d="M90 80c52 92 98 142 170 182" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity=".34"/>
+  </g>
+
+  <g transform="translate(626 228)" filter="url(#shadow)">
+    <circle cx="88" cy="88" r="84" fill="#f7fb66"/>
+    <path d="M52 25c42 28 63 72 58 132M108 25c-42 28-63 72-58 132" fill="none" stroke="#c9d43b" stroke-width="12" stroke-linecap="round"/>
+    <path d="M24 88h128" stroke="#c9d43b" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>
