@@ -314,17 +314,27 @@ select:focus,
   }
 
   .hero {
-    gap: 26px;
-    padding: 18px 0 38px;
+    gap: 18px;
+    padding: 12px 0 34px;
   }
 
   .hero-media {
+    order: -1;
     border-radius: 24px;
+  }
+
+  .hero-media img {
+    aspect-ratio: 16 / 9;
   }
 
   h1 {
     font-size: clamp(2.2rem, 10.4vw, 3rem);
     line-height: 1;
+    margin-bottom: 16px;
+  }
+
+  .lede {
+    margin-bottom: 22px;
   }
 
   .cards {
