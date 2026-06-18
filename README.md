@@ -28,7 +28,7 @@ Do not add a custom-domain `CNAME` file until Dave has reviewed the page and cho
 
 Give Ploy this folder as the reference, then ask:
 
-> Recreate this public brand page for `www.gnt.ai`, preserve the quiet visual direction and short copy, replace the mailto form with a native Ploy early-list form, and do not add product details, roadmap claims, integrations, private workflows, or specific club examples.
+> Recreate this public brand page for `www.gnt.ai`, preserve the quiet visual direction and short copy, and sharpen the positioning around two simple jobs: run a great pickleball event, or follow trusted people who run great pickleball events. Replace the mailto form with a native Ploy early-list form. Do not add product details, roadmap claims, integrations, private workflows, or specific club examples.
 
 ## Safety Rules
 
