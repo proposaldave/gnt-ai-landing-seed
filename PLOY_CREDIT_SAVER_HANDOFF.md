@@ -9,7 +9,7 @@ Codex owns the source, copy, visual direction, and static page build. Ploy shoul
 ## What Ploy Should Do
 
 1. Slurp/import the live page or GitHub repo.
-2. Preserve the current layout, visual hierarchy, colors, copy, and `landing-growth-loop.svg` hero direction.
+2. Preserve the current layout, visual hierarchy, colors, copy, and `blue-hour-court.svg` hero direction.
 3. Replace the `mailto:` form with a native early-list form.
 4. Add Ploy analytics and visitor identification if available on Dave's plan.
 5. Prepare the cleanest path to publish `www.gnt.ai`.
@@ -39,20 +39,17 @@ Goal: publish a public-safe landing page for www.gnt.ai while using as few Ploy 
 Do not redesign from scratch. Treat the current page as the approved V1 art direction and content strategy.
 
 Keep the core story:
-- Fill the next pickleball event with followers and referrals.
-- Run one great event, then build a group that keeps coming back.
-- Run great events.
-- Followers keep up with great community builders.
-- Community builders invite followers into the right events.
-- Followers refer friends.
-- The group grows naturally.
+- Great pickleball starts with the right host.
+- Follow hosts you trust.
+- Get invited.
+- Bring friends into the next game.
 
 Keep the design direction:
-- Premium, calm, blue/mint/white/gold Give n Take palette.
+- One-screen premium sports landing page.
+- Full-bleed blue-hour pickleball court.
+- Blue/mint/white/gold Give n Take palette with one magenta accent.
 - Short copy.
-- One strong hero visual.
-- The four-step growth loop visible near the top of the page.
-- One early-list form.
+- One first-name, email, club/city early-list form.
 - No private club examples.
 - No player data.
 - No production product screenshots.

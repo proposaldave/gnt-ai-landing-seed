@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Give n Take helps pickleball community builders run great events and fill the next one with followers and referrals."
+      content="Give n Take helps pickleball players follow great hosts, get invited, and bring friends into better games."
     />
     <title>Give n Take</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="page-shell">
+    <main class="landing">
+      <img class="court-bg" src="./assets/blue-hour-court.svg" alt="" />
+      <div class="glow glow-one"></div>
+      <div class="glow glow-two"></div>
+
       <nav class="nav" aria-label="Primary">
         <a class="brand" href="#top" aria-label="Give n Take home">
           <span class="brand-mark">GnT</span>
@@ -20,75 +24,35 @@
         <a class="nav-link" href="#early-list">Join early list</a>
       </nav>
 
-      <section class="hero" id="top">
+      <section class="hero" id="top" aria-label="Give n Take landing page">
         <div class="hero-copy">
-          <p class="eyebrow">The trusted host loop</p>
-          <h1>Fill your next pickleball event with followers and referrals.</h1>
+          <p class="eyebrow">Pickleball finds its people</p>
+          <h1>Great pickleball starts with the right host.</h1>
           <p class="lede">
-            Give n Take helps hosts run memorable sessions, let players follow
-            them, and invite the right friends into the next one.
+            Follow hosts you trust, get invited, and bring friends into the next game.
           </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#early-list">Join the early list</a>
-            <a class="button secondary" href="#loop">See the host loop</a>
-          </div>
         </div>
-        <div class="hero-media" aria-label="Give n Take community growth loop visual">
-          <img src="./assets/trusted-host-court.svg" alt="" />
-        </div>
-        <div class="hero-loop" id="loop" aria-label="Give n Take growth loop">
-          <article>
-            <span class="step">01</span>
-            <h3>Host runs a great event</h3>
-          </article>
-          <article>
-            <span class="step">02</span>
-            <h3>Players follow the host</h3>
-          </article>
-          <article>
-            <span class="step">03</span>
-            <h3>The next event fills warmly</h3>
-          </article>
-          <article>
-            <span class="step">04</span>
-            <h3>Followers refer friends</h3>
-          </article>
-        </div>
-      </section>
 
-      <section class="promise" aria-label="Give n Take promise">
-        <div>
-          <p class="eyebrow">Built for real communities</p>
-          <h2>Run one great event. Build a group that keeps coming back.</h2>
-        </div>
-      </section>
-
-      <section class="early-list" id="early-list">
-        <div>
-          <p class="eyebrow">Early list</p>
-          <h2>Want in when the first hosts launch?</h2>
-          <p>Join if you want to host, follow, refer, or grow a better pickleball community.</p>
-        </div>
-        <form class="signup" action="mailto:hello@gnt.ai" method="post" enctype="text/plain">
+        <form class="signup" id="early-list" action="mailto:hello@gnt.ai" method="post" enctype="text/plain">
           <label>
-            <span>Name</span>
-            <input name="name" autocomplete="name" required />
+            <span>First name</span>
+            <input name="first-name" autocomplete="given-name" required />
           </label>
           <label>
             <span>Email</span>
             <input name="email" type="email" autocomplete="email" required />
           </label>
           <label>
-            <span>I want to</span>
-            <select name="role" required>
-              <option value="host-events">Run great events</option>
-              <option value="follow-hosts">Follow great hosts</option>
-              <option value="grow-community">Grow a club community</option>
-            </select>
+            <span>Club or city</span>
+            <input name="club-or-city" autocomplete="address-level2" required />
           </label>
-          <button class="button primary" type="submit">Join the early list</button>
+          <button class="button" type="submit">Join early list</button>
         </form>
       </section>
+
+      <footer class="footer">
+        <span>For hosts, players, and clubs building better play.</span>
+      </footer>
     </main>
   </body>
 </html>

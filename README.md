@@ -6,18 +6,13 @@ GitHub: https://github.com/proposaldave/gnt-ai-landing-seed
 
 ## Decision
 
-Use this as a concrete visual/copy reference for Ploy. It is intentionally broad and brand-first. It should not expose private workflows, club operations, integrations, player data, or roadmap detail.
+Use this as a concrete visual/copy reference for Ploy. It is intentionally simple, public-safe, and brand-first. It should not expose private workflows, club operations, integrations, player data, or roadmap detail.
 
 ## Files
 
 - `index.html` - static landing page
 - `styles.css` - standalone styles, no build step
-- `assets/living-community-hero.svg` - active premium hero visual for the warm growth loop
-- `assets/landing-growth-loop.svg` - prior premium hero visual kept for reference
-- `assets/hero-community-growth.svg` - public-safe visual asset with no real people, logos, or readable data
-- `assets/follow-community-builders.svg` - public-safe visual for the follower/community-builder section
-- `assets/builders-invite-followers.svg` - public-safe visual for warm follower invitations
-- `assets/followers-refer-friends.svg` - public-safe visual for the referral loop
+- `assets/blue-hour-court.svg` - active full-bleed hero visual
 
 ## How To Preview
 
@@ -35,7 +30,7 @@ Start with `PLOY_CREDIT_SAVER_HANDOFF.md`. The rule is: Codex builds the page an
 
 If Ploy needs a short prompt, use:
 
-> Recreate this public brand page for `www.gnt.ai`, preserve the premium visual direction and short copy, and keep the hero focused on the clear outcome: fill the next pickleball event with followers and referrals. The supporting brand idea is: run one great event, then build a group that keeps coming back. The growth loop is: run a great pickleball event, followers keep up with great community builders, community builders invite followers into the right events, followers refer friends, and the group grows naturally. Replace the mailto form with a native Ploy early-list form. Do not add product details, roadmap claims, integrations, private workflows, or specific club examples.
+> Recreate this public brand page for `www.gnt.ai`, preserve the one-screen premium sports direction, and keep the page brutally simple. Headline: Great pickleball starts with the right host. Subhead: Follow hosts you trust, get invited, and bring friends into the next game. Keep only a first-name, email, and club/city early-list form. Replace the mailto form with a native Ploy form. Do not add feature grids, product details, roadmap claims, integrations, private workflows, or specific club examples.
 
 ## Safety Rules
 
