@@ -12,7 +12,8 @@ Use this as a concrete visual/copy reference for Ploy. It is intentionally broad
 
 - `index.html` - static landing page
 - `styles.css` - standalone styles, no build step
-- `assets/landing-growth-loop.svg` - active premium hero visual for the warm growth loop
+- `assets/living-community-hero.svg` - active premium hero visual for the warm growth loop
+- `assets/landing-growth-loop.svg` - prior premium hero visual kept for reference
 - `assets/hero-community-growth.svg` - public-safe visual asset with no real people, logos, or readable data
 - `assets/follow-community-builders.svg` - public-safe visual for the follower/community-builder section
 - `assets/builders-invite-followers.svg` - public-safe visual for warm follower invitations
@@ -34,7 +35,7 @@ Start with `PLOY_CREDIT_SAVER_HANDOFF.md`. The rule is: Codex builds the page an
 
 If Ploy needs a short prompt, use:
 
-> Recreate this public brand page for `www.gnt.ai`, preserve the premium visual direction and short copy, and keep the story focused on one simple growth loop: run a great pickleball event, followers keep up with great community builders, community builders invite followers into the right events, followers refer friends, and the group grows naturally. Replace the mailto form with a native Ploy early-list form. Do not add product details, roadmap claims, integrations, private workflows, or specific club examples.
+> Recreate this public brand page for `www.gnt.ai`, preserve the premium visual direction and short copy, and keep the hero focused on the main idea: from one great host to a living community. The growth loop is: run a great pickleball event, followers keep up with great community builders, community builders invite followers into the right events, followers refer friends, and the group grows naturally. Replace the mailto form with a native Ploy early-list form. Do not add product details, roadmap claims, integrations, private workflows, or specific club examples.
 
 ## Safety Rules
 

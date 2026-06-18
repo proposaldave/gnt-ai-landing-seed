@@ -39,6 +39,7 @@ Goal: publish a public-safe landing page for www.gnt.ai while using as few Ploy 
 Do not redesign from scratch. Treat the current page as the approved V1 art direction and content strategy.
 
 Keep the core story:
+- From one great host to a living community.
 - Run great events.
 - Followers keep up with great community builders.
 - Community builders invite followers into the right events.
@@ -49,7 +50,7 @@ Keep the design direction:
 - Premium, calm, blue/mint/white/gold Give n Take palette.
 - Short copy.
 - One strong hero visual.
-- One four-step growth loop.
+- The four-step growth loop visible near the top of the page.
 - One early-list form.
 - No private club examples.
 - No player data.

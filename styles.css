@@ -94,8 +94,8 @@ a {
   grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.1fr);
   gap: clamp(28px, 5vw, 72px);
   align-items: center;
-  min-height: min(820px, calc(88vh - 84px));
-  padding: clamp(24px, 5vh, 62px) 0 clamp(48px, 7vh, 78px);
+  min-height: min(860px, calc(92vh - 84px));
+  padding: clamp(18px, 4vh, 48px) 0 clamp(42px, 6vh, 66px);
 }
 
 .hero-copy {
@@ -120,8 +120,8 @@ p {
 
 h1 {
   margin-bottom: 22px;
-  max-width: 650px;
-  font-size: clamp(3.35rem, 7vw, 7rem);
+  max-width: 720px;
+  font-size: clamp(3.2rem, 6.4vw, 6.65rem);
   line-height: 0.9;
   letter-spacing: 0;
   overflow-wrap: break-word;
@@ -189,39 +189,24 @@ h3 {
 .hero-media img {
   display: block;
   width: 100%;
-  aspect-ratio: 1.08;
+  aspect-ratio: 1.26;
   object-fit: cover;
 }
 
-.loop {
-  border-top: 1px solid var(--border);
-  padding: clamp(54px, 8vw, 92px) 0 38px;
-}
-
-.loop-heading {
-  display: grid;
-  grid-template-columns: minmax(0, 0.84fr) minmax(0, 1fr);
-  gap: 48px;
-  align-items: end;
-  margin-bottom: 24px;
-}
-
-.loop-heading h2 {
-  max-width: 690px;
-}
-
-.loop-grid {
+.hero-loop {
+  grid-column: 1 / -1;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 12px;
+  margin-top: -16px;
 }
 
-.loop-grid article {
-  min-height: 230px;
+.hero-loop article {
+  min-height: 174px;
   border: 1px solid rgba(47, 107, 255, 0.14);
   border-radius: 26px;
-  padding: 22px;
-  background: rgba(255, 255, 255, 0.74);
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.78);
   box-shadow: 0 16px 46px rgba(36, 75, 179, 0.08);
 }
 
@@ -231,7 +216,7 @@ h3 {
   height: 46px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 54px;
+  margin-bottom: 32px;
   border-radius: 15px;
   background: var(--blue-100);
   color: var(--blue-900);
@@ -239,22 +224,22 @@ h3 {
   font-weight: 850;
 }
 
-.loop-grid article:nth-child(2) .step {
+.hero-loop article:nth-child(2) .step {
   background: #e8f8f5;
   color: #187c6c;
 }
 
-.loop-grid article:nth-child(3) .step {
+.hero-loop article:nth-child(3) .step {
   background: #fff5db;
   color: #9a6b00;
 }
 
-.loop-grid article:nth-child(4) .step {
+.hero-loop article:nth-child(4) .step {
   background: #ffe8fb;
   color: #9b007f;
 }
 
-.loop-grid p,
+.hero-loop p,
 .promise p,
 .early-list p {
   margin-bottom: 0;
@@ -332,13 +317,12 @@ select:focus,
 
 @media (max-width: 980px) {
   .hero,
-  .loop-heading,
   .promise,
   .early-list {
     grid-template-columns: 1fr;
   }
 
-  .loop-grid {
+  .hero-loop {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -399,16 +383,13 @@ select:focus,
     width: 100%;
   }
 
-  .loop {
-    padding-top: 46px;
-  }
-
-  .loop-grid {
+  .hero-loop {
     grid-template-columns: 1fr;
+    margin-top: 4px;
   }
 
-  .loop-grid article {
-    min-height: 168px;
+  .hero-loop article {
+    min-height: 156px;
   }
 
   .step {
