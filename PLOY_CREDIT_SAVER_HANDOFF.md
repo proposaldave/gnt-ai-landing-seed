@@ -39,6 +39,7 @@ Goal: publish a public-safe landing page for www.gnt.ai while using as few Ploy 
 Do not redesign from scratch. Treat the current page as the approved V1 art direction and content strategy.
 
 Keep the core story:
+- Host-led pickleball.
 - Great pickleball starts with the right host.
 - Follow hosts you trust.
 - Get invited.

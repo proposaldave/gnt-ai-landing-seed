@@ -30,7 +30,7 @@ Start with `PLOY_CREDIT_SAVER_HANDOFF.md`. The rule is: Codex builds the page an
 
 If Ploy needs a short prompt, use:
 
-> Recreate this public brand page for `www.gnt.ai`, preserve the one-screen premium sports direction, and keep the page brutally simple. Headline: Great pickleball starts with the right host. Subhead: Follow hosts you trust, get invited, and bring friends into the next game. Keep only a first-name, email, and club/city early-list form. Replace the mailto form with a native Ploy form. Do not add feature grids, product details, roadmap claims, integrations, private workflows, or specific club examples.
+> Recreate this public brand page for `www.gnt.ai`, preserve the one-screen premium sports direction, and keep the page brutally simple. Eyebrow: Host-led pickleball. Headline: Great pickleball starts with the right host. Subhead: Follow hosts you trust, get invited, and bring friends into the next game. CTA: Get early access. Keep only a first-name, email, and club/city early-list form. Replace the mailto form with a native Ploy form. Do not add feature grids, product details, roadmap claims, integrations, private workflows, or specific club examples.
 
 ## Safety Rules
 
