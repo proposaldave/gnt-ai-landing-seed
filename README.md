@@ -2,6 +2,8 @@
 
 Status: public-safe static seed for Ploy or GitHub Pages.
 
+GitHub: https://github.com/proposaldave/gnt-ai-landing-seed
+
 ## Decision
 
 Use this as a concrete visual/copy reference for Ploy. It is intentionally broad and brand-first. It should not expose private workflows, club operations, integrations, player data, or roadmap detail.
