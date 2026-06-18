@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 980" role="img" aria-labelledby="title desc">
+  <title id="title">Trusted host fills a pickleball court through referrals</title>
+  <desc id="desc">A premium public-safe visual showing one pickleball host filling an event through followers and friend referrals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset=".5" stop-color="#eef7ff"/>
+      <stop offset="1" stop-color="#e8fff7"/>
+    </linearGradient>
+    <linearGradient id="court" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ecf6ff"/>
+      <stop offset=".58" stop-color="#f9fcff"/>
+      <stop offset="1" stop-color="#e8fff7"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#5f90ff"/>
+      <stop offset="1" stop-color="#244bb3"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#86e1d1"/>
+      <stop offset="1" stop-color="#2ea891"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe397"/>
+      <stop offset="1" stop-color="#e5a625"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff6fe5"/>
+      <stop offset="1" stop-color="#d900ba"/>
+    </linearGradient>
+    <filter id="deepShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="34" stdDeviation="34" flood-color="#244bb3" flood-opacity=".18"/>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#244bb3" flood-opacity=".16"/>
+    </filter>
+  </defs>
+
+  <rect width="1320" height="980" rx="72" fill="url(#bg)"/>
+  <path d="M130 176h1060c54 0 98 44 98 98v432c0 54-44 98-98 98H130c-54 0-98-44-98-98V274c0-54 44-98 98-98Z" fill="url(#court)" filter="url(#deepShadow)"/>
+  <path d="M86 286h1148M86 490h1148M86 694h1148M252 218v520M660 218v520M1068 218v520" fill="none" stroke="#cfe2ff" stroke-width="5"/>
+
+  <g fill="none" stroke-linecap="round" stroke-width="13">
+    <path d="M660 376C518 282 378 282 240 378" stroke="#2f6bff"/>
+    <path d="M660 376c142-94 282-94 420 2" stroke="#49b4a0"/>
+    <path d="M660 554C515 570 394 640 296 764" stroke="#49b4a0"/>
+    <path d="M660 554c145 16 266 86 364 210" stroke="#2f6bff"/>
+    <path d="M660 554c-6 92-58 164-156 216" stroke="#f0b83c"/>
+    <path d="M660 554c6 92 58 164 156 216" stroke="#f000c8"/>
+  </g>
+
+  <g filter="url(#deepShadow)">
+    <rect x="456" y="246" width="408" height="470" rx="56" fill="#fff"/>
+    <rect x="498" y="288" width="324" height="124" rx="34" fill="url(#blue)"/>
+    <circle cx="660" cy="350" r="50" fill="#fff" opacity=".95"/>
+    <circle cx="660" cy="328" r="22" fill="#244bb3"/>
+    <path d="M623 375c12-27 24-40 37-40 14 0 27 13 39 40" fill="none" stroke="#244bb3" stroke-linecap="round" stroke-width="16"/>
+    <rect x="524" y="454" width="272" height="50" rx="25" fill="#eaf2ff"/>
+    <circle cx="570" cy="479" r="14" fill="#2f6bff"/>
+    <circle cx="615" cy="479" r="14" fill="#49b4a0"/>
+    <circle cx="660" cy="479" r="14" fill="#f000c8"/>
+    <circle cx="705" cy="479" r="14" fill="#f0b83c"/>
+    <rect x="524" y="548" width="272" height="42" rx="21" fill="#e8f7f3"/>
+    <rect x="564" y="620" width="192" height="42" rx="21" fill="url(#mint)"/>
+    <rect x="342" y="512" width="168" height="96" rx="28" fill="#fff"/>
+    <circle cx="386" cy="560" r="23" fill="url(#gold)"/>
+    <path d="M413 560h52" stroke="#2f6bff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="465" cy="560" r="9" fill="#2f6bff"/>
+    <rect x="810" y="512" width="168" height="96" rx="28" fill="#fff"/>
+    <circle cx="854" cy="560" r="23" fill="url(#gold)"/>
+    <path d="M881 560h52" stroke="#49b4a0" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="933" cy="560" r="9" fill="#49b4a0"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="158" y="314" width="226" height="112" rx="38" fill="#fff"/>
+    <circle cx="218" cy="370" r="27" fill="url(#blue)"/>
+    <circle cx="282" cy="370" r="27" fill="url(#mint)"/>
+    <path d="M307 338l42 32-42 32" fill="none" stroke="#2f6bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+
+    <rect x="936" y="314" width="226" height="112" rx="38" fill="#fff"/>
+    <circle cx="996" cy="370" r="27" fill="url(#mint)"/>
+    <circle cx="1060" cy="370" r="27" fill="url(#blue)"/>
+    <path d="M1085 338l42 32-42 32" fill="none" stroke="#49b4a0" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+
+    <rect x="196" y="724" width="246" height="108" rx="38" fill="#fff"/>
+    <circle cx="254" cy="778" r="26" fill="#2f6bff"/>
+    <circle cx="319" cy="778" r="26" fill="#49b4a0"/>
+    <circle cx="384" cy="778" r="26" fill="#f0b83c"/>
+
+    <rect x="878" y="724" width="246" height="108" rx="38" fill="#fff"/>
+    <circle cx="936" cy="778" r="26" fill="#49b4a0"/>
+    <circle cx="1001" cy="778" r="26" fill="#2f6bff"/>
+    <circle cx="1066" cy="778" r="26" fill="#f000c8"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <circle cx="660" cy="145" r="42" fill="url(#gold)"/>
+    <path d="M660 119v52M634 145h52M642 127l36 36M678 127l-36 36" stroke="#bd8c12" stroke-linecap="round" stroke-width="7"/>
+    <circle cx="416" cy="256" r="17" fill="#2f6bff"/>
+    <circle cx="904" cy="256" r="17" fill="#49b4a0"/>
+    <circle cx="446" cy="690" r="16" fill="#f0b83c"/>
+    <circle cx="874" cy="690" r="16" fill="#f000c8"/>
+  </g>
+</svg>

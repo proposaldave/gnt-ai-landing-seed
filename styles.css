@@ -120,9 +120,9 @@ p {
 
 h1 {
   margin-bottom: 22px;
-  max-width: 720px;
-  font-size: clamp(3.2rem, 6.4vw, 6.65rem);
-  line-height: 0.9;
+  max-width: 760px;
+  font-size: clamp(3rem, 5.8vw, 6rem);
+  line-height: 0.92;
   letter-spacing: 0;
   overflow-wrap: break-word;
 }
@@ -198,14 +198,14 @@ h3 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 12px;
-  margin-top: -16px;
+  margin-top: -10px;
 }
 
 .hero-loop article {
-  min-height: 174px;
+  min-height: 112px;
   border: 1px solid rgba(47, 107, 255, 0.14);
-  border-radius: 26px;
-  padding: 18px;
+  border-radius: 22px;
+  padding: 16px;
   background: rgba(255, 255, 255, 0.78);
   box-shadow: 0 16px 46px rgba(36, 75, 179, 0.08);
 }
@@ -213,11 +213,11 @@ h3 {
 .step {
   display: inline-flex;
   width: 46px;
-  height: 46px;
+  height: 34px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 32px;
-  border-radius: 15px;
+  margin-bottom: 26px;
+  border-radius: 12px;
   background: var(--blue-100);
   color: var(--blue-900);
   font-size: 0.82rem;
@@ -389,11 +389,16 @@ select:focus,
   }
 
   .hero-loop article {
-    min-height: 156px;
+    display: grid;
+    min-height: 76px;
+    grid-template-columns: 48px 1fr;
+    gap: 12px;
+    align-items: center;
+    padding: 14px;
   }
 
   .step {
-    margin-bottom: 34px;
+    margin-bottom: 0;
   }
 
   .early-list {
