@@ -240,17 +240,12 @@ h3 {
 }
 
 .hero-loop p,
-.promise p,
 .early-list p {
   margin-bottom: 0;
   color: var(--muted);
 }
 
 .promise {
-  display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.78fr);
-  gap: 38px;
-  align-items: end;
   margin: 34px 0;
   border: 1px solid rgba(47, 107, 255, 0.16);
   border-radius: 34px;
@@ -258,11 +253,6 @@ h3 {
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.88) 0%, rgba(232, 255, 248, 0.9) 100%);
   box-shadow: 0 22px 64px rgba(36, 75, 179, 0.09);
-}
-
-.promise p {
-  max-width: 470px;
-  font-size: 1.12rem;
 }
 
 .early-list {
