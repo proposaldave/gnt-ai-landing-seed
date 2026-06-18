@@ -40,7 +40,7 @@ Do not redesign from scratch. Treat the current page as the approved V1 art dire
 
 Keep the core story:
 - Fill the next pickleball event with followers and referrals.
-- From one trusted host to a living community.
+- Run one great event, then build a group that keeps coming back.
 - Run great events.
 - Followers keep up with great community builders.
 - Community builders invite followers into the right events.
