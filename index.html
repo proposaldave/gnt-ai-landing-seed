@@ -8,7 +8,7 @@
       content="Give n Take helps pickleball hosts build a following, expand relationships, fill sessions, and grow through referrals."
     />
     <title>Give n Take</title>
-    <link rel="stylesheet" href="./styles.css?v=20260619-5" />
+    <link rel="stylesheet" href="./styles.css?v=20260619-6" />
   </head>
   <body>
     <main class="landing">
@@ -34,15 +34,47 @@
             Build a following. Expand relationships. Fill the next great session. Grow through referrals.
           </p>
 
-          <form class="access" id="early-list" action="mailto:hello@gnt.ai" method="post" enctype="text/plain">
+          <form
+            class="access"
+            id="early-list"
+            action="mailto:hello@gnt.ai?subject=Give%20n%20Take%20early%20access"
+            method="post"
+            enctype="text/plain"
+          >
             <label for="email">Early access</label>
             <div class="access-row">
               <input id="email" name="email" type="email" autocomplete="email" placeholder="Email address" required />
               <button class="button" type="submit">Request access</button>
             </div>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
           </form>
         </div>
       </section>
     </main>
+    <script>
+      const form = document.querySelector("#early-list");
+      const emailInput = document.querySelector("#email");
+      const status = document.querySelector("#form-status");
+      const button = form.querySelector("button");
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        if (!emailInput.validity.valid) {
+          form.reportValidity();
+          return;
+        }
+
+        const email = emailInput.value.trim();
+        const subject = encodeURIComponent("Give n Take early access");
+        const body = encodeURIComponent(
+          `Please add me to the Give n Take early access list.\n\nEmail: ${email}`
+        );
+
+        button.textContent = "Email ready";
+        status.textContent = "Email draft opened. If nothing happened, send your email to hello@gnt.ai.";
+        window.location.href = `mailto:hello@gnt.ai?subject=${subject}&body=${body}`;
+      });
+    </script>
   </body>
 </html>
