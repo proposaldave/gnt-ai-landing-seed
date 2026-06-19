@@ -134,7 +134,7 @@ a {
 }
 
 .hero-copy {
-  width: min(780px, 100%);
+  width: min(930px, 100%);
 }
 
 .eyebrow {
@@ -152,7 +152,7 @@ p {
 }
 
 h1 {
-  max-width: 780px;
+  max-width: 930px;
   margin-bottom: 38px;
   font-size: clamp(2.35rem, 3.25vw, 3.9rem);
   line-height: 1.08;
@@ -162,6 +162,7 @@ h1 {
 h1 span {
   display: block;
   max-width: 100%;
+  white-space: nowrap;
   text-wrap: balance;
 }
 
@@ -274,6 +275,10 @@ input:focus,
     margin-bottom: 30px;
     font-size: clamp(2.1rem, 7.6vw, 3.15rem);
     line-height: 1.07;
+  }
+
+  h1 span {
+    white-space: normal;
   }
 
   .access-row {
