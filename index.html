@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Give n Take helps pickleball hosts build a following and fill the next great session."
+      content="Give n Take helps pickleball hosts build a following, expand relationships, fill sessions, and grow through referrals."
     />
     <title>Give n Take</title>
-    <link rel="stylesheet" href="./styles.css?v=20260619" />
+    <link rel="stylesheet" href="./styles.css?v=20260619-2" />
   </head>
   <body>
     <main class="landing">
@@ -24,33 +24,53 @@
 
       <section class="hero" id="top" aria-label="Give n Take landing page">
         <div class="hero-copy">
-          <p class="eyebrow">For pickleball hosts</p>
+          <p class="eyebrow">Host-led pickleball</p>
           <h1>Great pickleball starts with the right host.</h1>
           <p class="lede">
             Build a following. Expand relationships. Fill the next great session. Grow through referrals.
           </p>
-          <div class="signal-list" aria-label="Give n Take host benefits">
-            <span>Followers</span>
-            <span>Wish lists</span>
-            <span>Referrals</span>
-          </div>
+
+          <form class="access" id="early-list" action="mailto:hello@gnt.ai" method="post" enctype="text/plain">
+            <label for="email">Early access</label>
+            <div class="access-row">
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="Email address" required />
+              <button class="button" type="submit">Request access</button>
+            </div>
+          </form>
         </div>
 
-        <form class="signup" id="early-list" action="mailto:hello@gnt.ai" method="post" enctype="text/plain">
-          <div class="signup-heading">
-            <p>Early access</p>
-            <h2>Join the host list.</h2>
+        <div class="product-scene" aria-label="Give n Take host network preview">
+          <div class="court-card">
+            <div class="court-line court-line-one"></div>
+            <div class="court-line court-line-two"></div>
+            <div class="court-line court-line-three"></div>
+            <div class="net"></div>
           </div>
-          <label>
-            <span>Email</span>
-            <input name="email" type="email" autocomplete="email" required />
-          </label>
-          <button class="button" type="submit">Request access</button>
-        </form>
-      </section>
 
-      <footer class="footer">
-      </footer>
+          <div class="network">
+            <span class="link link-a"></span>
+            <span class="link link-b"></span>
+            <span class="link link-c"></span>
+            <span class="link link-d"></span>
+            <span class="node host-node">
+              <strong>Host</strong>
+              <small>session builder</small>
+            </span>
+            <span class="node node-followers">Followers</span>
+            <span class="node node-wishlist">Wish lists</span>
+            <span class="node node-feedback">Feedback</span>
+            <span class="node node-referrals">Referrals</span>
+          </div>
+
+          <div class="session-panel">
+            <div>
+              <p>Next session</p>
+              <strong>8 players want in</strong>
+            </div>
+            <span>Fill court</span>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
