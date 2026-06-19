@@ -41,9 +41,10 @@ Do not redesign from scratch. Treat the current page as the approved V1 art dire
 Keep the core story:
 - Host-led pickleball.
 - Great pickleball starts with the right host.
-- Follow hosts you trust.
-- Get invited.
-- Bring friends into the next game.
+- Hosts build followers.
+- Wish lists show who wants to play.
+- Scheduling gets easier.
+- Referrals grow the next event.
 
 Keep the design direction:
 - One-screen premium sports landing page.
