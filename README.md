@@ -12,7 +12,7 @@ Use this as a concrete visual/copy reference for Ploy. It is intentionally simpl
 
 - `index.html` - static landing page
 - `styles.css` - standalone styles, no build step
-- `assets/blue-hour-court.svg` - active full-bleed hero visual
+- `assets/hero-court-editorial.jpg` - active full-bleed hero visual
 
 ## How To Preview
 
@@ -30,7 +30,7 @@ Start with `PLOY_CREDIT_SAVER_HANDOFF.md`. The rule is: Codex builds the page an
 
 If Ploy needs a short prompt, use:
 
-> Recreate this public brand page for `www.gnt.ai`, preserve the one-screen premium sports direction, and keep the page brutally simple. Eyebrow: Host-led pickleball. Headline: Great pickleball starts with the right host. Subhead: Hosts build followers, learn who wants to play, schedule faster, and grow through referrals. CTA: Get early access. Keep only a first-name, email, and club/city early-list form. Keep the three small benefit chips: Followers, Wish lists, Referrals. Replace the mailto form with a native Ploy form. Do not add feature grids, product details, roadmap claims, integrations, private workflows, or specific club examples.
+> Recreate this public brand page for `www.gnt.ai`, preserve the one-screen premium sports direction, and keep the page brutally simple. Eyebrow: Host-led pickleball. Headline: Great pickleball starts with the right host. Subhead: Hosts build followers, learn who wants to play, schedule faster, and grow through referrals. CTA: Get early access. Use the full-bleed `hero-court-editorial.jpg` visual. Keep only a first-name, email, and club/city early-list form. Keep the three small benefit chips: Followers, Wish lists, Referrals. Replace the mailto form with a native Ploy form. Do not add feature grids, product details, roadmap claims, integrations, private workflows, or specific club examples.
 
 ## Safety Rules
 

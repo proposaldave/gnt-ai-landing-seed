@@ -9,7 +9,7 @@ Codex owns the source, copy, visual direction, and static page build. Ploy shoul
 ## What Ploy Should Do
 
 1. Slurp/import the live page or GitHub repo.
-2. Preserve the current layout, visual hierarchy, colors, copy, and `blue-hour-court.svg` hero direction.
+2. Preserve the current layout, visual hierarchy, colors, copy, and `hero-court-editorial.jpg` hero direction.
 3. Replace the `mailto:` form with a native early-list form.
 4. Add Ploy analytics and visitor identification if available on Dave's plan.
 5. Prepare the cleanest path to publish `www.gnt.ai`.
@@ -48,7 +48,7 @@ Keep the core story:
 
 Keep the design direction:
 - One-screen premium sports landing page.
-- Full-bleed blue-hour pickleball court.
+- Full-bleed editorial blue-hour pickleball court.
 - Blue/mint/white/gold Give n Take palette with one magenta accent.
 - Short copy.
 - One first-name, email, club/city early-list form.
