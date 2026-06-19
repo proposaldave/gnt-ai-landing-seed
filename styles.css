@@ -134,7 +134,7 @@ a {
 }
 
 .hero-copy {
-  width: min(1120px, 100%);
+  width: min(780px, 100%);
 }
 
 .eyebrow {
@@ -152,21 +152,26 @@ p {
 }
 
 h1 {
-  max-width: 1120px;
-  margin-bottom: 32px;
-  font-size: clamp(3rem, 4.12vw, 4.9rem);
-  line-height: 1.02;
+  max-width: 780px;
+  margin-bottom: 38px;
+  font-size: clamp(2.35rem, 3.25vw, 3.9rem);
+  line-height: 1.08;
   letter-spacing: 0;
 }
 
 h1 span {
   display: block;
-  white-space: nowrap;
+  max-width: 100%;
+  text-wrap: balance;
+}
+
+h1 span + span {
+  margin-top: 0.08em;
 }
 
 .access {
   display: grid;
-  max-width: 600px;
+  max-width: 560px;
   gap: 10px;
 }
 
@@ -265,14 +270,10 @@ input:focus,
   }
 
   h1 {
-    max-width: min(560px, 100%);
-    margin-bottom: 28px;
-    font-size: clamp(2.65rem, 9.2vw, 4.05rem);
-    line-height: 1;
-  }
-
-  h1 span {
-    white-space: normal;
+    max-width: min(500px, 100%);
+    margin-bottom: 30px;
+    font-size: clamp(2.1rem, 7.6vw, 3.15rem);
+    line-height: 1.07;
   }
 
   .access-row {
@@ -296,7 +297,7 @@ input:focus,
 
   h1 {
     max-width: 360px;
-    font-size: clamp(2.08rem, 8.4vw, 2.78rem);
+    font-size: clamp(1.92rem, 7.65vw, 2.32rem);
   }
 }
 
@@ -316,7 +317,7 @@ input:focus,
 
   h1 {
     max-width: 340px;
-    font-size: clamp(2.02rem, 8.35vw, 2.5rem);
+    font-size: clamp(1.82rem, 7.35vw, 2.12rem);
   }
 
   .access {
