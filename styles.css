@@ -134,7 +134,7 @@ a {
 }
 
 .hero-copy {
-  width: min(940px, 100%);
+  width: min(1120px, 100%);
 }
 
 .eyebrow {
@@ -168,9 +168,9 @@ h1 span {
 .host-loop {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  max-width: 950px;
-  gap: 12px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  max-width: 1120px;
+  gap: 10px;
   margin: 0 0 34px;
   padding: 10px 0 0;
   list-style: none;
@@ -217,11 +217,13 @@ h1 span {
 }
 
 .host-step:nth-child(2),
-.host-step:nth-child(4) {
+.host-step:nth-child(4),
+.host-step:nth-child(6) {
   transform: translateY(8px);
 }
 
-.host-step:nth-child(3) {
+.host-step:nth-child(3),
+.host-step:nth-child(5) {
   transform: translateY(-4px);
 }
 
@@ -420,13 +422,15 @@ input:focus,
 
   .host-step:nth-child(2),
   .host-step:nth-child(3),
-  .host-step:nth-child(4) {
+  .host-step:nth-child(4),
+  .host-step:nth-child(5),
+  .host-step:nth-child(6) {
     transform: none;
   }
 
   .host-step:last-child {
-    grid-column: 1 / -1;
-    min-height: 92px;
+    grid-column: auto;
+    min-height: 102px;
   }
 
   .step-icon {
@@ -501,7 +505,7 @@ input:focus,
   }
 
   .host-step:last-child {
-    min-height: 88px;
+    min-height: 96px;
   }
 
   .step-number {
