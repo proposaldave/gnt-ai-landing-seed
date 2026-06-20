@@ -134,7 +134,7 @@ a {
 }
 
 .hero-copy {
-  width: min(930px, 100%);
+  width: min(940px, 100%);
 }
 
 .eyebrow {
@@ -152,22 +152,95 @@ p {
 }
 
 h1 {
-  max-width: 930px;
-  margin-bottom: 38px;
-  font-size: clamp(2.35rem, 3.25vw, 3.9rem);
-  line-height: 1.08;
+  max-width: 760px;
+  margin-bottom: 24px;
+  font-size: clamp(3.3rem, 5.55vw, 5.8rem);
+  line-height: 0.96;
   letter-spacing: 0;
 }
 
 h1 span {
   display: block;
   max-width: 100%;
-  white-space: nowrap;
   text-wrap: balance;
 }
 
-h1 span + span {
-  margin-top: 0.08em;
+.host-loop {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  max-width: 920px;
+  gap: 10px;
+  margin: 0 0 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.host-step {
+  position: relative;
+  display: grid;
+  min-height: 132px;
+  padding: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 12px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.045)),
+    rgba(4, 16, 31, 0.52);
+  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(18px);
+}
+
+.host-step::after {
+  position: absolute;
+  inset: auto 12px 0;
+  height: 2px;
+  content: "";
+  background: linear-gradient(90deg, var(--gold), rgba(91, 143, 212, 0.85));
+  opacity: 0.8;
+}
+
+.step-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.step-number {
+  color: var(--gold);
+  font-size: 0.68rem;
+  font-weight: 950;
+  letter-spacing: 0.16em;
+}
+
+.step-icon {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(91, 143, 212, 0.86), rgba(37, 99, 235, 0.9));
+  color: #ffffff;
+  box-shadow: 0 16px 38px rgba(37, 99, 235, 0.25);
+}
+
+.step-icon svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.step-label {
+  align-self: end;
+  color: rgba(255, 255, 255, 0.94);
+  font-size: clamp(0.9rem, 0.84vw, 1.02rem);
+  font-weight: 900;
+  line-height: 1.16;
 }
 
 .access {
@@ -271,14 +344,41 @@ input:focus,
   }
 
   h1 {
-    max-width: min(500px, 100%);
-    margin-bottom: 30px;
-    font-size: clamp(2.1rem, 7.6vw, 3.15rem);
-    line-height: 1.07;
+    max-width: min(620px, 100%);
+    margin-bottom: 24px;
+    font-size: clamp(3rem, 10vw, 4.4rem);
+    line-height: 0.98;
   }
 
   h1 span {
     white-space: normal;
+  }
+
+  .host-loop {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 520px;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+
+  .host-step {
+    min-height: 102px;
+    padding: 12px;
+  }
+
+  .host-step:last-child {
+    grid-column: 1 / -1;
+    min-height: 92px;
+  }
+
+  .step-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .step-icon svg {
+    width: 20px;
+    height: 20px;
   }
 
   .access-row {
@@ -297,12 +397,20 @@ input:focus,
 
   .hero-copy,
   .access {
-    width: min(360px, 100%);
+    width: min(380px, 100%);
   }
 
   h1 {
-    max-width: 360px;
-    font-size: clamp(1.92rem, 7.65vw, 2.32rem);
+    max-width: 380px;
+    font-size: clamp(2.62rem, 10.7vw, 3.28rem);
+  }
+
+  .host-loop {
+    width: min(380px, 100%);
+  }
+
+  .step-label {
+    font-size: 0.9rem;
   }
 }
 
@@ -322,7 +430,28 @@ input:focus,
 
   h1 {
     max-width: 340px;
-    font-size: clamp(1.82rem, 7.35vw, 2.12rem);
+    font-size: clamp(2.34rem, 10.1vw, 2.85rem);
+  }
+
+  .host-loop {
+    width: min(340px, 100%);
+  }
+
+  .host-step {
+    min-height: 96px;
+    padding: 11px;
+  }
+
+  .host-step:last-child {
+    min-height: 88px;
+  }
+
+  .step-number {
+    font-size: 0.62rem;
+  }
+
+  .step-label {
+    font-size: 0.84rem;
   }
 
   .access {
