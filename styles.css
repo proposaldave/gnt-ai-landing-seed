@@ -166,28 +166,63 @@ h1 span {
 }
 
 .host-loop {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  max-width: 920px;
-  gap: 10px;
-  margin: 0 0 30px;
-  padding: 0;
+  max-width: 950px;
+  gap: 12px;
+  margin: 0 0 34px;
+  padding: 10px 0 0;
   list-style: none;
+  isolation: isolate;
+}
+
+.host-loop::before {
+  position: absolute;
+  top: 30px;
+  left: 18px;
+  right: 18px;
+  z-index: -1;
+  height: 1px;
+  content: "";
+  background: linear-gradient(90deg, rgba(215, 183, 106, 0), rgba(215, 183, 106, 0.78), rgba(91, 143, 212, 0.82), rgba(91, 143, 212, 0));
+  box-shadow: 0 0 28px rgba(91, 143, 212, 0.28);
 }
 
 .host-step {
   position: relative;
   display: grid;
-  min-height: 132px;
-  padding: 14px;
+  min-height: 136px;
+  padding: 14px 14px 13px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.17);
-  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 14px;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.045)),
-    rgba(4, 16, 31, 0.52);
-  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.18);
+    radial-gradient(circle at 82% 22%, rgba(91, 143, 212, 0.26), transparent 34%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.035)),
+    rgba(4, 16, 31, 0.6);
+  box-shadow:
+    0 22px 70px rgba(0, 0, 0, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(18px);
+}
+
+.host-step:first-child {
+  border-color: rgba(215, 183, 106, 0.36);
+  background:
+    radial-gradient(circle at 80% 22%, rgba(215, 183, 106, 0.2), transparent 35%),
+    radial-gradient(circle at 26% 92%, rgba(91, 143, 212, 0.22), transparent 38%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0.04)),
+    rgba(4, 16, 31, 0.64);
+}
+
+.host-step:nth-child(2),
+.host-step:nth-child(4) {
+  transform: translateY(8px);
+}
+
+.host-step:nth-child(3) {
+  transform: translateY(-4px);
 }
 
 .host-step::after {
@@ -195,8 +230,8 @@ h1 span {
   inset: auto 12px 0;
   height: 2px;
   content: "";
-  background: linear-gradient(90deg, var(--gold), rgba(91, 143, 212, 0.85));
-  opacity: 0.8;
+  background: linear-gradient(90deg, var(--gold), rgba(91, 143, 212, 0.95));
+  opacity: 0.92;
 }
 
 .step-top {
@@ -207,30 +242,40 @@ h1 span {
 }
 
 .step-number {
-  color: var(--gold);
-  font-size: 0.68rem;
+  display: inline-flex;
+  min-width: 32px;
+  min-height: 22px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(215, 183, 106, 0.26);
+  border-radius: 999px;
+  background: rgba(215, 183, 106, 0.1);
+  color: #f1d98c;
+  font-size: 0.62rem;
   font-weight: 950;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.12em;
 }
 
 .step-icon {
   display: grid;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   place-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.17);
-  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 12px;
   background: linear-gradient(135deg, rgba(91, 143, 212, 0.86), rgba(37, 99, 235, 0.9));
   color: #ffffff;
-  box-shadow: 0 16px 38px rgba(37, 99, 235, 0.25);
+  box-shadow:
+    0 16px 38px rgba(37, 99, 235, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18);
 }
 
 .step-icon svg {
-  width: 22px;
-  height: 22px;
+  width: 23px;
+  height: 23px;
   fill: none;
   stroke: currentColor;
-  stroke-width: 1.9;
+  stroke-width: 1.85;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
@@ -238,7 +283,8 @@ h1 span {
 .step-label {
   align-self: end;
   color: rgba(255, 255, 255, 0.94);
-  font-size: clamp(0.9rem, 0.84vw, 1.02rem);
+  text-wrap: balance;
+  font-size: clamp(0.92rem, 0.9vw, 1.06rem);
   font-weight: 900;
   line-height: 1.16;
 }
@@ -359,11 +405,23 @@ input:focus,
     max-width: 520px;
     gap: 8px;
     margin-bottom: 24px;
+    padding-top: 0;
+  }
+
+  .host-loop::before {
+    display: none;
   }
 
   .host-step {
     min-height: 102px;
     padding: 12px;
+    transform: none;
+  }
+
+  .host-step:nth-child(2),
+  .host-step:nth-child(3),
+  .host-step:nth-child(4) {
+    transform: none;
   }
 
   .host-step:last-child {
